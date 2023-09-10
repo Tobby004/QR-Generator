@@ -1,0 +1,18 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1692807168995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1692807168995,
+            "name": "Commit-0",
+            "content": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>QR Code Generator</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n    <script src=\"https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js\"></script>\n\n<div class=\"form\">\n  <h1>QR Code Generator</h1>\n  <form>\n    <input type=\"url\" id=\"website\" name=\"website\" placeholder=\"\" required />\n\n    <div id=\"qrcode-container\">\n        <div id=\"qrcode\" class=\"qrcode\"></div>\n    </div>\n\n    <button type=\"button\" onclick=\"generateQRCode()\">Generate QR Code</button>\n    <Script src=\"main.js\"></Script>\n</form>\n</div>\n</body>\n</html>"
+        }
+    ]
+}

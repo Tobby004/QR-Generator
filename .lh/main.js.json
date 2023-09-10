@@ -1,0 +1,18 @@
+{
+    "sourceFile": "main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1692807168997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1692807168997,
+            "name": "Commit-0",
+            "content": "function generateQRCode() {\n    let website = document.getElementById(\"website\").value;\n    if (website) {\n      let qrcodeContainer = document.getElementById(\"qrcode\");\n      qrcodeContainer.innerHTML = \"\";\n      new QRCode(qrcodeContainer, website);\n   \n      document.getElementById(\"qrcode-container\").style.display = \"block\";\n    } else {\n      alert(\"Please enter a valid URL\");\n    }\n  }"
+        }
+    ]
+}
